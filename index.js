@@ -1,6 +1,6 @@
 //importing node framework
 var express = require(‘express’);
-var app = express();//Respond with "hello mava world" for requests that hit our root "/"
+var app = express();//Respond with "helloworld" for requests that hit our root "/"
 app.get(‘/’, function (req, res) {
  res.send(‘helloworld’);
 });//listen to port 80 by default
